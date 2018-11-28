@@ -14,7 +14,7 @@ public class Main {
     {
         StringBuffer sb = new StringBuffer();
 
-        for (int i = start; i < end + 1; i++) {
+        for (int i = start; i <= end; i++) {
             sb.append((char)(i));
         }
         String s = sb.toString();
